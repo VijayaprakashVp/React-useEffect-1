@@ -1,10 +1,7 @@
-export Grocerylist () {
-
-    return (
-        <div>
-            <input type="text" />
-        </div>
-    )
-
-
+export function Grocerylist() {
+  return (
+    <div>
+      <input type="text" />
+    </div>
+  );
 }
