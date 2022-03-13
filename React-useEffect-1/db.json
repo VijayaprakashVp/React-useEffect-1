@@ -1,32 +1,32 @@
 {
   "groceries": [
     {
-      "title": "hey",
+      "title": "Oreo",
       "purchased": "false",
       "id": 1
     },
     {
-      "title": "hello",
+      "title": "Candy",
       "purchased": "false",
       "id": 2
     },
     {
-      "title": "qwe123",
+      "title": "Munch",
       "purchased": "false",
       "id": 3
     },
     {
-      "title": "wrewer234",
+      "title": "Dairy Milk",
       "purchased": "false",
       "id": 4
     },
     {
-      "title": "qweqweqwe",
+      "title": "Noodles",
       "purchased": "false",
       "id": 5
     },
     {
-      "title": "qweqweqwe",
+      "title": "Buscuits",
       "purchased": "false",
       "id": 5
     }
