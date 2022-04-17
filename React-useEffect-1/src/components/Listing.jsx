@@ -7,7 +7,6 @@ export function Listing({ value }) {
       {value.map((e) => (
         <div key={nanoid()}>
           <p>{e.title}</p>
-          {/* <span>{e.purchased}</span> */}
         </div>
       ))}
     </div>

@@ -9,7 +9,7 @@ export function Grocerylist() {
 
   const display = () => {
     try {
-      fetch(`http://localhost:3001/groceries?_limit=3&_page=${page}`)
+      fetch(`http://localhost:3002/groceries?_limit=3&_page=${page}`)
         .then((res) => res.json())
         .then((data) => setList(data));
     } catch (e) {
@@ -23,7 +23,7 @@ export function Grocerylist() {
 
   const submit = () => {
     try {
-      fetch("http://localhost:3001/groceries", {
+      fetch("http://localhost:3002/groceries", {
         method: "POST",
         body: JSON.stringify({ title: showitem, purchased: false }),
         headers: {
